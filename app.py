@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     # count = redis.incr('hits')
-    return 'Hello World! \n'
+    return 'Hello Worlda! \n'
 
 @app.route('/test')
 def test():
